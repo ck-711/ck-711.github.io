@@ -2,7 +2,7 @@
 
 一个简洁、响应式的个人作品集网站，用于展示个人介绍、精选项目与联系方式。
 
-**在线访问：[https://chi-ck.github.io/](https://chi-ck.github.io/)**
+**在线访问：[https://ck-711.github.io/](https://ck-711.github.io/)**
 
 ## 网站特点
 
