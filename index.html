@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="个人作品集网站" />
+    <title>你的名字 · 个人作品集</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回首页"><span class="brand-mark">✳</span><span>YOUR / NAME</span></a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#work">作品</a><a href="#about">关于</a><a href="#contact">联系</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="切换主题" title="切换主题">☼</button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> AVAILABLE FOR SELECT PROJECTS · 2025</p>
+          <h1>把想法<br /><em>做成作品。</em></h1>
+          <p class="hero-intro">你好，我是<strong>你的名字</strong>，一名专注于体验、品牌与数字产品的设计师 / 开发者。</p>
+          <a class="arrow-link" href="#work">查看精选作品 <span>↘</span></a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="grid-lines"></div>
+          <div class="art-note note-one">CURIOUS<br />BY DEFAULT</div>
+          <div class="art-note note-two">01 — 04</div>
+        </div>
+      </section>
+
+      <section id="work" class="section-wrap work-section">
+        <div class="section-heading"><p class="eyebrow">SELECTED WORK</p><span class="section-count">01 / 04</span></div>
+        <div class="project-grid">
+          <article class="project-card project-wide"><div class="project-visual visual-one"><span>01</span><div class="visual-shape"></div></div><div class="project-meta"><div><h2>项目名称一</h2><p>品牌策略 · 数字体验</p></div><a href="#contact" aria-label="查看项目一">↗</a></div></article>
+          <article class="project-card"><div class="project-visual visual-two"><span>02</span><div class="visual-window"><i></i><i></i><i></i></div></div><div class="project-meta"><div><h2>项目名称二</h2><p>产品设计 · 开发</p></div><a href="#contact" aria-label="查看项目二">↗</a></div></article>
+          <article class="project-card"><div class="project-visual visual-three"><span>03</span><div class="visual-type">TYPE<br /><b>IS</b><br />FORM</div></div><div class="project-meta"><div><h2>项目名称三</h2><p>视觉系统 · 编辑设计</p></div><a href="#contact" aria-label="查看项目三">↗</a></div></article>
+          <article class="project-card project-wide"><div class="project-visual visual-four"><span>04</span><div class="visual-sun"></div><div class="visual-text">A SMALL<br />GOOD THING</div></div><div class="project-meta"><div><h2>项目名称四</h2><p>独立实验 · 交互原型</p></div><a href="#contact" aria-label="查看项目四">↗</a></div></article>
+        </div>
+      </section>
+
+      <section id="about" class="about-section"><div class="section-wrap about-grid"><div><p class="eyebrow">A LITTLE ABOUT ME</p><h2 class="about-title">让复杂的事<br /><em>变得简单。</em></h2></div><div class="about-copy"><p>我相信好的设计不只关乎好看，更关乎理解、连接与行动。过去几年，我与不同规模的团队合作，把模糊的想法转化为清晰、有效、令人愉悦的体验。</p><div class="facts"><div><span>BASE</span><strong>中国 · 杭州</strong></div><div><span>FOCUS</span><strong>设计 / 开发 / 策略</strong></div><div><span>TOOLS</span><strong>Figma · Webflow · Code</strong></div></div></div></div></section>
+
+      <section id="contact" class="contact-section section-wrap"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2>一起做点<br /><em>有意思的事。</em></h2><a class="contact-email" href="mailto:hello@example.com">hello@example.com <span>↗</span></a><div class="contact-bottom"><span>© 2025 YOUR NAME</span><div><a href="https://github.com/" target="_blank" rel="noreferrer">GITHUB</a><a href="#top">BACK TO TOP ↑</a></div></div></section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
